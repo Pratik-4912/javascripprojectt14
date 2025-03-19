@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: repeating-linear-gradient(0deg, #fff 0%, #fff 50%, #000 50%, #000 100%), 
+                repeating-linear-gradient(90deg, #aaa 0%, red 90%, red 50%, #555 100%);
+    background-size: 30px 30px;
+    background-blend-mode: difference;
+    cursor: grab;
+    position: relative;
+    overflow: hidden;
+}
+span {
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #333;
+    pointer-events: none;
+    border-radius: 50%;
+    background-image: url('https://pixabay.com/get/g47ebd0ac7c09ad92e120ae04b5d4f67be7d763a4b3bdb1fbe4b456dfcd7b0d43e95c86f10d3ee9006939fbc8f92e3a7e_640.jpg'); /* Fixed URL */
+    background-size: cover;
+}
