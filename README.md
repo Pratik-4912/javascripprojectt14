@@ -1,1 +1,1 @@
-# javascripprojectt14
+The Scratch Effect project is a fun and interactive web app that simulates a scratch card effect using JavaScript and HTML5 Canvas. When the user clicks and drags over the surface, part of a colored or image layer is revealed, just like scratching a lottery ticket. This project is useful for gamified UI/UX, promotions, or just creative interactive effects on web page.
